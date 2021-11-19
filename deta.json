@@ -1,0 +1,13 @@
+{
+    "name": "HTTP Cat Bot",
+    "description": "A Telegram Bot helper for http.cat",
+    "runtime": "nodejs14.x",
+    "env": [
+        {
+            "key": "BOT_TOKEN",
+            "description": "Telegram Bot Token",
+            "value": "",
+            "required": true
+        }
+    ]
+}
