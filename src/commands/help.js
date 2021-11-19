@@ -7,8 +7,8 @@ composer.command("help", async (ctx) => {
   ctx.reply(
     `<b>Available Commands</b>\n\n` +
       "<code>/cat status-code</code>\n" +
-      "<i>e.g:</i> /cat 401",
-    "Aliases - /http, /httpcat, /status)",
+      "<i>e.g:</i> /cat 401\n" +
+      "Aliases - /http, /httpcat, /status)",
     {
       parse_mode: "HTML",
       reply_markup: keyboard.switchInlineCurrent("Search cat"),
