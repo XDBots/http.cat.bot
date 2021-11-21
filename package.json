@@ -4,11 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "GPL3",
   "dependencies": {
     "dotenv": "^10.0.0",
     "envalid": "^7.2.2",
