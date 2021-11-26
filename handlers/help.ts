@@ -1,7 +1,7 @@
 import {
   Composer,
   InlineKeyboard,
-} from "https://deno.land/x/grammy@v1.3.3/mod.ts";
+} from "https://deno.land/x/grammy@v1.4.2/mod.ts";
 
 const composer = new Composer();
 

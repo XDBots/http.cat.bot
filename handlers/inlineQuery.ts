@@ -1,4 +1,4 @@
-import { Composer } from "https://deno.land/x/grammy@v1.3.3/mod.ts";
+import { Composer } from "https://deno.land/x/grammy@v1.4.2/mod.ts";
 import validCats from "../valid_cats.ts";
 
 const composer = new Composer();

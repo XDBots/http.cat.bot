@@ -1,4 +1,4 @@
-import { Composer } from "https://deno.land/x/grammy@v1.3.3/mod.ts";
+import { Composer } from "https://deno.land/x/grammy@v1.4.2/mod.ts";
 
 import start from "./start.ts";
 import cat from "./cat.ts";

@@ -1,5 +1,5 @@
-import { Bot, webhookCallback } from "https://deno.land/x/grammy@v1.3.3/mod.ts";
-import { Application, Router } from "https://deno.land/x/oak@v9.0.1/mod.ts";
+import { Bot, webhookCallback } from "https://deno.land/x/grammy@v1.4.2/mod.ts";
+import { Application, Router } from "https://deno.land/x/oak@v10.0.0/mod.ts";
 
 import handlers from "./handlers/mod.ts";
 import env from "./env.ts";
