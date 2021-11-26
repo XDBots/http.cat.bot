@@ -13,7 +13,7 @@ bot.use(handlers);
 
 router.post(`/${bot.token}`, webhookCallback(bot, "oak"));
 
-router.get("/", async (ctx) => {
+router.get(`/${bot.token}`, async (ctx) => {
   await bot.api.setWebhook(ctx.request.url.href);
   ctx.response.status = 200;
 });
@@ -25,5 +25,7 @@ app.use(async (ctx, next) => {
     ctx.response.status = 200;
   }
 });
+
+app.use(router.routes())
 
 app.listen(":3000");
